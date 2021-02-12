@@ -6,3 +6,62 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+header {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+}
+.logo-container,
+.nav-links {
+  display: flex;
+}
+.logo-container {
+  flex: 3;
+}
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+nav {
+  flex: 1;
+}
+.nav-links {
+  justify-content: flex-end;
+  list-style: none;
+}
+.nav-link {
+  color: #5f5f79;
+  font-size: 18px;
+  text-decoration: none;
+}
+.presentation {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  min-height: 40vh;
+  align-items: center;
+}
+.introduction {
+  flex: 1;
+}
+.intro-text h1 {
+  font-size: 25px;
+  font-weight: 500px;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.our-clients {
+  flex: 1;
+}
+.our-clients p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #585772;
+}
+.our-clients img {
+  height: 15vh;
+  justify-content: flex-end;
+}
