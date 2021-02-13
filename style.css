@@ -18,7 +18,7 @@ header {
   display: flex;
 }
 .logo-container {
-  flex: 3;
+  flex: 1;
 }
 .logo {
   font-weight: 500;
@@ -26,17 +26,9 @@ header {
   margin: 5px;
   color: #5f5f79;
 }
-nav {
+nav ul {
   flex: 1;
-}
-.nav-links {
-  justify-content: flex-end;
   list-style: none;
-}
-.nav-link {
-  color: #5f5f79;
-  font-size: 18px;
-  text-decoration: none;
 }
 .presentation {
   display: flex;
